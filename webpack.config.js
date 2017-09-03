@@ -12,7 +12,7 @@ if (nodeEnv === "github")
 
 const sourcePath = path.join(__dirname, "./src");
 const publicPath =
-  nodeEnv === "github" ? `/${process.env.GIHUB_RESPOSITORY}` : "/";
+  nodeEnv === "github" ? `/${process.env.GIHUB_RESPOSITORY}/` : "/";
 const buildPath =
   nodeEnv === "github"
     ? path.join(__dirname, "./docs")
