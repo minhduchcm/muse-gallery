@@ -5,10 +5,19 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 const nodeEnv = process.env.NODE_ENV || "development";
-const isProduction = nodeEnv === "production";
+const isProduction = nodeEnv === "production" || nodeEnv === "github";
+if (nodeEnv === "github")
+  if (process.env.GIHUB_RESPOSITORY === undefined)
+    throw new Error("expect GIHUB_RESPOSITORY");
 
 const sourcePath = path.join(__dirname, "./src");
-const buildPath = path.join(__dirname, "./build");
+const publicPath =
+  nodeEnv === "github" ? `/${process.env.GIHUB_RESPOSITORY}` : "/";
+const buildPath =
+  nodeEnv === "github"
+    ? path.join(__dirname, "./docs")
+    : path.join(__dirname, "./build");
+
 const imgPaths = [path.join(__dirname, "./src")];
 
 const plugins = [
@@ -143,7 +152,7 @@ module.exports = {
   },
   output: {
     path: buildPath,
-    publicPath: "/",
+    publicPath: publicPath,
     filename: "app-[hash].js",
     chunkFilename: "[name].bundle.js"
   },
