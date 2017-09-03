@@ -3,7 +3,6 @@ const path = require("path");
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const autoprefixer = require("autoprefixer");
 
 const nodeEnv = process.env.NODE_ENV || "development";
 const isProduction = nodeEnv === "production";
@@ -29,16 +28,6 @@ const plugins = [
     template: "index.template.ejs",
     path: buildPath,
     filename: "index.html"
-  }),
-  new webpack.LoaderOptionsPlugin({
-    options: {
-      postcss: [
-        autoprefixer({
-          browsers: ["last 2 versions", "> 5%", "Explorer >= 10", "Safari >= 7"]
-        })
-      ],
-      context: sourcePath
-    }
   })
 ];
 

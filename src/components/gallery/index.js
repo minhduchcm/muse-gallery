@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-class Gallery extends Component {
-  componentDidMount() {}
+import style from "./gallery.css";
 
+class Gallery extends Component {
   render() {
-    return <div>{JSON.stringify(this.props)}</div>;
+    return <div className={style.container} />;
   }
 }
 
