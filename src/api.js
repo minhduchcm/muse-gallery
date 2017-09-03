@@ -1,8 +1,12 @@
+import axios from "axios";
+import language from "./language.json";
+
 const base = "https://pro.musehall.com/";
 export function fetchGalleryData(unknownId1, unknownId2) {
   const url = `${base}private/visite/${unknownId1}/${unknownId2}`;
-  return fetch(url)
-    .then(response => response.json())
+  return axios
+    .get(url)
+    .then(res => res.data)
     .then(
       ({
         id,
@@ -32,14 +36,26 @@ export function fetchGalleryData(unknownId1, unknownId2) {
           ...imageRooms.map(room => room.length),
           3
         );
+        let preloadImagePromise = [];
+
         const rooms = imageRooms.map(room =>
           room.reduce((room, image, imageIndex) => {
             const wallIndex = Math.floor(imageIndex / numOfImagesPerWall);
             if (!room[wallIndex]) room[wallIndex] = [];
+            image.image = language.urlImage + image.image;
+            preloadImagePromise.push(
+              new Promise(resolve => {
+                let img = new Image();
+                img.onload = resolve;
+                img.src = image.image;
+              })
+            );
             room[wallIndex].push(image);
             return room;
           }, [])
         );
+
+        Promise.all(preloadImagePromise);
         return {
           id,
           company,

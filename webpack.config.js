@@ -9,7 +9,7 @@ const isProduction = nodeEnv === "production";
 
 const sourcePath = path.join(__dirname, "./src");
 const buildPath = path.join(__dirname, "./build");
-const imgPaths = [path.join(__dirname, "./public/img")];
+const imgPaths = [path.join(__dirname, "./src")];
 
 const plugins = [
   new webpack.optimize.CommonsChunkPlugin({

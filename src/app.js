@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
+import "./global.css";
 import { fetchGalleryData } from "./api";
-
 import Gallery from "./components/gallery";
 
 class App extends Component {

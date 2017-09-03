@@ -1,0 +1,57 @@
+.control {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+.btn-prev-room {
+  flex-grow: 1;
+}
+.btn-next-room {
+  flex-grow: 1;
+}
+.btn-prev-room button {
+  float: left;
+  padding: 10px;
+}
+.btn-next-room button {
+  padding: 10px;
+  float: right;
+}
+.info-panel {
+  color: white;
+  width: 470px;
+  flex-direction: row;
+  display: flex;
+}
+.info-panel .btn-prev-room,
+.info-panel .btn-next-room {
+  width: 100px;
+}
+.info-panel p {
+  flex-grow: 1;
+  text-align: center;
+}
+.foot-left {
+  background-image: url(./img/arrow-left.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 70px;
+}
+.foot-right {
+  background-image: url(./img/arrow-right.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 70px;
+}
+.foot-left:hover {
+  background-image: url(./img/foot-left.png);
+  cursor: pointer;
+}
+.foot-right:hover {
+  background-image: url(./img/foot-right.png);
+  cursor: pointer;
+}

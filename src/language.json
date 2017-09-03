@@ -1,0 +1,287 @@
+{
+  "baseUrl": "https://pro.musehall.com",
+  "publicLinkContact": "https://musehall.fr/contact",
+  "publicUrl": "https://musehall.fr",
+  "publicExpoUrl": "https://musehall.fr/expositions",
+  "pk_key": "pk_live_Q9HRjeNXYABhnGu3ylyshWZX",
+  "rootUrl": "https://pro.musehall.com",
+  "changePasswordUrl":
+    "https://pro.musehall.com/utilisateur/mot-de-passe-oublie/fr",
+  "urlImage": "https://pro.musehall.com/public-api/image/",
+  "urlImageApercu": "https://pro.musehall.com/public-api/image/apercu/",
+  "urlAudio": "https://pro.musehall.com/public-api/audio/",
+  "goToPro": "https://pro.musehall.com/inscription",
+  "boutonConnect": "Connexion",
+  "btnSallePrev": "Salle précédente",
+  "btnSalleNext": "Salle suivante",
+  "boutonMettreJour": "Mettre à jour",
+  "boutonDeconnect": "Déconnexion",
+  "boutonExpos": "Voir les expos",
+  "boutonBlog": "Envoyer mon message",
+  "boutonVoirTousExpo": "Toutes les expos",
+  "boutonExpo": "Voir l'expo",
+  "boutonPlus": "En savoir plus",
+  "boutonMember": "Je m'abonne",
+  "boutonProfile": "Mon profil",
+  "boutonVoirMusees": "Tous les musées",
+  "boutonVoirProduits": "Tous les produits",
+  "boutonLouerEspace": "Exposer",
+  "boutonCreerComptePro": "Créer votre compte",
+  "boutonCreerCompte": "Créer un compte visiteur",
+  "boutonEnvoyer": "Envoyer",
+  "boutonStartVisit": "Commencer la visite",
+  "boutonJeCreerMonCompte": "Je crée mon compte",
+  "boutonStartVisitExpo": "Visiter l'expo",
+  "boutonClose": "Fermer",
+  "cookies":
+    "Nous vous informons que MuséHall utilise des cookies, dans une recherche d'amélioration constante de nos services. En poursuivant votre navigation, vous acceptez notre charte de confidentialité",
+  "expositions": {
+    "exposition": "Exposition",
+    "title": "Toutes les expositions MuséHall",
+    "header": "Affiner<br />ma recherche",
+    "artistes": "Par artistes",
+    "musees": "Sélectionnez vos critères",
+    "themes": "Par thèmes",
+    "type": "Par mode d'accès",
+    "selectTheme": "Arts",
+    "selectMusee": "Musées",
+    "selectArtiste": "Artistes",
+    "details": {
+      "noProducts": "Aucun produit associé",
+      "noExpo": "Aucune exposition associée",
+      "noPreview": "Aucun aperçu",
+      "expoDetailBreadcrumb": "Détails de l'expo",
+      "dateDebut": "A partir du",
+      "dateFin": "Jusqu'au",
+      "boutique": "Boutique",
+      "exposAssocies": "Les Expos associées",
+      "apercu": "Aperçu",
+      "partagerReseau": "Partager cette expo",
+      "optionsDisponible": "OPTIONS DISPONIBLES",
+      "audioGuide": "Audio guide",
+      "atelier": "Atelier",
+      "options": {
+        "titleAudio": "Titre audio",
+        "paragrapheAudio": "Description audio",
+        "titleAtelier": "Titre atelier",
+        "paragrapheAtelier": "Autour de l'oeuvre",
+        "titlePayment": "Modalité de règlement",
+        "paragraphePayment": "Paiement Sécurisé"
+      }
+    }
+  },
+  "musees": {
+    "title": "Toutes les expositions MuséHall",
+    "h3": "LES \n EXPOSANTS",
+    "expoEnCours": "Expos en cours",
+    "musees": "Les musées",
+    "nosExposants": "Les<br />exposants",
+    "read": "Lire la suite"
+  },
+  "accueil": {
+    "section1Titre": "Expos<br />à la<br />une...",
+    "section2Titre": "Les<br />Musées ",
+    "section2SousTitre": "L'Art s'affiche, la Culture s'encadre",
+    "section3Titre": "Qu'est-ce que<br />MuséHall",
+    "section3ChiffreCle": "Chiffres clés<br />MuséHall",
+    "section3Expo": "Expositions MuséHall",
+    "section3Musee": "Musées",
+    "section3Artiste": "Artistes",
+    "section4Titre": "Espace virtuel",
+    "section4SousTitre": "d'expositions d'Arts"
+  },
+  "actualites": {
+    "actualites": "Actualités",
+    "h2": "Actualités<br />MuséHall"
+  },
+  "partenaires": {
+    "partenaires": "Partenaires",
+    "h2": "Nos<br />partenaires"
+  },
+  "blog": {
+    "title": "Donnez votre avis / Posez votre question",
+    "h1": "Livre d'or",
+    "errorNotLogged": "Veuillez vous connecter"
+  },
+  "general": {
+    "result": "Résultats",
+    "member": "Abonné",
+    "free": "Visite gratuite",
+    "exposition": "Exposition",
+    "jour": "jour",
+    "jours": "jours"
+  },
+  "footer": {
+    "centerTitre": "Accès direct",
+    "registerNewsLetter": "Merci pour votre inscription à la newsletter",
+    "rightTitle": "Newsletter",
+    "leftParagraph":
+      "MuséHall est dédiée aux expositions temporaires<br />Visites virtuelles pour tout public, gratuites, payantes, publiques ou privées<br />Location d'espaces et outil scénographique pour exposants",
+    "rightParagraph":
+      "Inscrivez-vous à notre lettre d'information<br /> pour suivre les expositions de vos artistes préférés"
+  },
+  "registration": {
+    "titre": "Créez votre compte gratuitement",
+    "paragraphe":
+      "Bénéficiez de toutes les fonctionnalités et avantages offerts par MuséHall",
+    "selectGender": "Genre",
+    "selectLangue": "Langue",
+    "selectAge": "Année de naissance",
+    "selectEdu": "Situation",
+    "selectTags": "Vos centres d'intérêts",
+    "required":
+      "Veuillez renseigner tous les champs afin de créer votre compte, Merci",
+    "success":
+      "Nous vous remercions de votre confiance. Veuillez vérifier votre messagerie, un lien vous a été envoyé afin de confirmer la création de votre compte.",
+    "terms": "Vous devez accepter nos conditions générales",
+    "fail": "Désolé, cet email est déjà utilisé",
+    "male": "Monsieur",
+    "female": "Madame"
+  },
+  "nav": {
+    "home": "Accueil",
+    "showroom": "Expositions",
+    "museum": "Musées",
+    "shops": "Boutique",
+    "goPro": "Devenir exposant",
+    "musehall": "MuséHall",
+    "partner": "Partenaires",
+    "news": "Actualités",
+    "blog": "Livre d'or",
+    "contact": "Contact",
+    "content": {
+      "connexion": "",
+      "createCompte": "Je crée mon compte",
+      "myProfile": "Mon profil",
+      "visiteur": "Visiteur",
+      "identifier":
+        "Veuillez vous identifier ou créez gratuitement votre compte afin de bénéficier de toutes les fonctionnalités offertes par MuséHall"
+    }
+  },
+  "contact": {
+    "contactUs": "Contactez-nous",
+    "sentEmail": "Votre message a bien été envoyé",
+    "block_1": "Vos suggestions",
+    "block_2": "Nous",
+    "block_3": "Intéressent"
+  },
+  "externLink": {
+    "facebook": "https://www.facebook.com/MuseHall-1424236964332469/",
+    "twitter": "https://twitter.com/?lang=fr",
+    "linkdin": "https://fr.linkedin.com/",
+    "instagram": "https://www.instagram.com/musehall_fr/?hl=en"
+  },
+  "form": {
+    "textarea": "Rédigez votre message...",
+    "email": "Adresse email",
+    "password": "Mot de passe",
+    "send": "Message envoyé",
+    "city": "Votre ville"
+  },
+  "profil": {
+    "h2_1": "Mes informations personnelles",
+    "h3_1": "Bienvenue",
+    "isLogged": "Veuillez vous connecter,Merci",
+    "h3": "Modifier mes informations personnelles",
+    "h4": "ESPACE<br />CLIENT MUSÉHALL",
+    "nom": "Nom",
+    "prenom": "Prénom",
+    "username": "Nom d'utilisateur",
+    "ville": "Ville",
+    "pays": "Pays",
+    "tags": "Centres d'intérêts",
+    "profession": "Profession",
+    "email": "Email",
+    "lastConnection": "Dernière connexion",
+    "membre": "Mon abonnement",
+    "filAriane1": "Espace client",
+    "filAriane2": "Mes informations personnelles",
+    "age": "Tranche d'âge",
+    "li_1": "Informations personnelles",
+    "education": "Education",
+    "langue": "Langue",
+    "gender": "Le genre"
+  },
+  "error": {
+    "email": "Email ou mot de passe incorrects",
+    "active":
+      "Vous devez activer votre compte - Cliquez sur: Mot de Passe oublié",
+    "errorPayment":
+      "Erreur lors de la transaction, veuillez réessayer ou contacter : support@musehall.com"
+  },
+  "tips": {
+    "updated": "Informations mises à jour"
+  },
+  "login": {
+    "forgetPassword": "Mot de passe oublié ?",
+    "loginNotice": "Veuillez-vous identifier",
+    "visiteur": "Visiteur",
+    "nullIdentite": "Identité non renseignée"
+  },
+  "gallery": {
+    "AlertBuyTicket": "Veuillez acheter un billet",
+    "salle": "Salle(s)",
+    "salles": "salle(s)",
+    "oeuvres": "oeuvre(s)",
+    "audio": "Guide audio",
+    "atelier": "Atelier",
+    "noGallery": "Cette exposition n'est dans aucune de nos galeries",
+    "boutonMemberVoirExpo": "Acheter un billet pour l'expo",
+    "logged": "Veuillez vous connecter pour poursuivre, merci",
+    "loading": "Veuillez patienter, l'exposition est en cours de chargement",
+    "noImage": "Aucune image pour cette galerie"
+  },
+  "payment": {
+    "payment": "paiement",
+    "vip": "VIP",
+    "ticket": "BILLET",
+    "success":
+      "Merci pur votre règlement, vous pouvez visiter cette exposition",
+    "ErrorNotRegister":
+      "Veuillez créer gratuitement votre compte pour poursuivre, merci",
+    "success_text_1": "Merci",
+    "success_text_2": "Pour votre",
+    "success_text_3": "Achat",
+    "success_text_4": "Bonne visite",
+    "buyTicket": "Acheter un billet",
+    "buy_block_1": "Acheter",
+    "buy_block_2": "Un",
+    "buy_block_3": "Billet",
+    "free_text_1": "Exposition",
+    "free_text_2": "Gratuite",
+    "info": {
+      "title": "Paiement sécurisé",
+      "paragraphe":
+        "Nous vous informons que nous utilisons un système de paiement en ligne sécurisé permettant de crypter le numéro de carte du client via la solution Stripe. Les paiements sur notre site s'effectuent en EURO et par carte bancaire. Pour plus d'informations, veuillez consulter nos Conditions Générales d'Utilisation."
+    }
+  },
+  "metaTitle": {
+    "pageShop": "Boutique MuséHall",
+    "pageMusee": "Les musées",
+    "pageExpoList": "Liste des expositions",
+    "pageExpoDetails": "Descriptions de l'exposition",
+    "pageNews": "Actualités",
+    "pagePartner": "Nos Partenaires",
+    "pageMusehall": "MuséHall",
+    "pageContact": "Contact",
+    "pageCGU": "Conditions Générales d'Utilisation",
+    "pageCGV": "Conditions Générales d'Utilisation et de Vente",
+    "pageCredit": "Crédits",
+    "pageMention": "Mentions légales",
+    "pageHome": "Accueil"
+  },
+  "breadcrumb": {
+    "home": "Accueil",
+    "musees": "Musées",
+    "expositions": "Expositions",
+    "exposition": "Exposition",
+    "expoDetail": "Descriptions de l'exposition",
+    "shops": "Boutique",
+    "news": "Actualités",
+    "partner": "Partenaires"
+  },
+  "private": {
+    "title": "Votre visite privée",
+    "subTitle": "Bonne visite"
+  }
+}
