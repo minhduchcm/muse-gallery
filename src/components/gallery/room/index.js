@@ -27,28 +27,14 @@ class Room extends Component {
     );
   }
   componentWillReceiveProps(nextProps) {
+    if (
+      nextProps.roomIndex === this.props.roomIndex &&
+      nextProps.wallIndex === this.props.wallIndex &&
+      nextProps.imageIndex === this.props.imageIndex
+    )
+      return;
     let changeWall = nextProps.changeWall;
     let direction = nextProps.direction;
-    // if (
-    //   nextProps.roomIndex === this.props.roomIndex &&
-    //   nextProps.wallIndex === this.props.wallIndex
-    // ) {
-    //   changeWall = false;
-    //   direction =
-    //     nextProps.imageIndex > this.props.imageIndex ? "next" : "prev";
-    // } else {
-    //   if (nextProps.roomIndex === this.props.roomIndex) {
-    //     if (nextProps.wallIndex > 0 && this.props.wallIndex > 0)
-    //       direction =
-    //         nextProps.wallIndex > this.props.wallIndex ? "next" : "prev";
-    //     else
-    //       direction =
-    //         nextProps.wallIndex < this.props.wallIndex ? "next" : "prev";
-    //   } else {
-    //     direction =
-    //       nextProps.roomIndex > this.props.roomIndex ? "next" : "prev";
-    //   }
-    // }
     const containerSize = this.context.getContainerSize();
     let wallStyle = { transitionDuration: "0ms" };
     let nextWallStyle = {
